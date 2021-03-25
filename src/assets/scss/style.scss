@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import "header/header.scss";
 @import "side-bar/side-bar.scss";
-@import "side-bar/item/item.scss";
+@import "side-bar/blocks/item.scss";
 @import "main/main.scss";
+@import "main/blocks/choice.scss";
+@import "main/blocks/edit-info.scss";
+@import "main/blocks/edit-notif.scss";
+@import "main/blocks/user-info.scss";
 
 
 * {

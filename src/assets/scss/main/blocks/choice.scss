@@ -1,0 +1,26 @@
+.choice {
+
+  &__item {
+    margin: 0 15px;
+
+    line-height: 3;
+    font-size: 14px;
+    text-decoration: none;
+
+    color: #3A3B3F;
+  }
+
+  &__item:after {
+    background-color: #1665D8;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    transition: width .3s ease-in-out;
+  }
+
+  &__item:hover:after, &__item:focus:after {
+    width: 100%
+  }
+
+}

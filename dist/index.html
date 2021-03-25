@@ -21,7 +21,7 @@
     
         <div class="header__ads">
           <a href="#" class="header__ads-a">
-            <img src="assets\images\header\free.png" alt="" class="header__ads-button">
+            <p class="header__ads-button">Free</p>
             <p class="header__ads-text">See our PRO version for more design components & coded in React follow this link: https://devias.io/products/devias-kit-pro</p>
           </a>
         </div>
@@ -71,7 +71,7 @@
             </li>
             <li class="side-bar__item item">
                 <a href="#" class="item__row">
-                  <img src="img\side-bar\li4.png" alt="" class="item__image">
+                  <img src="assets\images\side-bar\li4.png" alt="" class="item__image">
                 <p class="item__text">Authentication</p>
               </a>
             </li>
@@ -112,14 +112,48 @@
           </nav>
     
           <div class="main__flex-container-row">
-              <div class="main__user-info user-info">user-info</div>
+    
+              <div class="main__user-info user-info">
+                <div class="user-info__container">
+                  <div class="user-info__container-row">
+                    <div class="user-info__container-text">
+                      <p class="user-info__name">Bogdan Golovin</p>
+                      <p class="user-info__city">Rm. Valcea, Romania</p>
+                      <p class="user-info__time">4:32PM (GMT-4)</p>
+                    </div>
+                    <img src="assets\images\main\avatar.jpg" height="100px" alt="" class="user-info__avatar">
+                  </div>
+    
+                  <form action="" class="user-info__form">
+                    <button type="button" name="" class="user-info__button">Upload</button>
+                    <button type="button" name="" class="user-info__button">Remove</button>
+                  </form>
+                </div>
+            </div>
+    
               <div class="main__flex-container-column">
-                <div class="main__edit-info edit-info">edit-info</div>
+    
+                <div class="main__edit-info edit-info">
+                  <p class="edit-info__text-1">Basic Profile</p>
+                  <p class="edit-info__text-2">The information can be edited from yuor profile page</p>
+    
+                  <form action="" class="edit-info__form">
+                    <input type="text" name="" value="First name" class="edit-info__input">
+                    <input type="text" name="" value="Last name" class="edit-info__input">
+                    <input type="text" name="" value="Email@email.com" class="edit-info__input">
+                    <input type="text" name="" value="Phone number" class="edit-info__input">
+                    <input type="text" name="" value="Country" class="edit-info__input">
+                    <input type="text" name="" value="City" class="edit-info__input">
+                    <button type="button" name="" class="edit-info__button">Remove</button>
+                  </form>
+                </div>
+    
+    
                 <div class="main__edit-notif edit-notif">edit-notif</div>
               </div>
           </div>
+          </div>
     
-        </div>
       </main>
 
     <script src="assets/js/app.js"></script>
