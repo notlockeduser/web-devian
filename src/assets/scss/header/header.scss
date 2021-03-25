@@ -1,0 +1,79 @@
+$defaultBlue: #3F51B5;
+
+
+.header {
+
+	&__body {
+    background: $defaultBlue;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	}
+
+	&__logobar {
+    margin-left: 24px;
+    margin-right: 35px;
+    width: 136px;
+	}
+
+	&__logobar-a {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	&__logo {
+
+	}
+
+	&__logotext {
+    margin-left: 10px;
+    width: 90px;
+    color: #fff;
+    font-size: 20px;
+
+	}
+
+	&__ads {
+    height: 30px;
+    border-radius: 5px;
+    background-color: darken($defaultBlue, 10%);
+	}
+
+	&__ads-a {
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	&__ads-button {
+    margin: 5px;
+	}
+
+	&__ads-text {
+    font-size: 14px;
+    color: #CDD1EA;
+    padding: 0 4px;
+	}
+
+	&__others {
+
+    margin-left: 34%;
+    display: flex;
+    align-items: flex-end;
+
+	}
+
+	&__notification {
+    margin: 10px;
+	}
+
+	&__exit {
+    margin: 10px;
+
+	}
+
+}
