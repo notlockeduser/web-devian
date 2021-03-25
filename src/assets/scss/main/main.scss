@@ -25,6 +25,7 @@
 
 	&__user-info {
     	margin: 30px;
+			max-height: 185px;
       background: white;
       border-radius: 2%;
       box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
@@ -39,16 +40,20 @@
 	}
 
 	&__edit-info {
-    margin: 30px 30px 30px 0;
+    margin: 30px 30px 10px 0;
       background: white;
-
+		width: 600px;
       border-radius:  0 0 2% 2%;
       box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+
+			display: flex;
+			flex-direction: column;
 	}
 
 	&__edit-notif {
-    margin: 30px 0px 30px 0;
+    margin: 15px 0px 30px 0;
       background: white;
+			width: 600px;
       border-radius: 2%;
       box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
 	}

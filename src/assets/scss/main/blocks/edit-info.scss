@@ -1,3 +1,70 @@
 .edit-info {
 
+	&__container-text {
+		padding: 15px;
+		display:flex;
+		flex-direction: row;
+		align-items:baseline;
+		border-bottom: 1px solid #E4E7EB;
+
+	}
+
+	&__text-1 {
+		font-size: 14px;
+		color: #3A3B3F;
+	}
+
+	&__text-2 {
+		margin-left: 10px;
+		font-size: 10px;
+		color: #66788A;
+
+	}
+
+	&__form-container{
+		display: flex;
+		flex-direction:row;
+		border-bottom: 1px solid #E4E7EB;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__input {
+		margin: 20px;
+	padding: 0 60px 0 0;
+	border: 1px solid #cccccc; //цвет рамки
+	border-radius: 3px; //закругление углов (общее)
+	background: #ffffff !important; // желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым
+	outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+	height: 24px; // высота на свое усмотрение
+	width: 120px; // ширина на свое усмотрение
+	color: #cccccc; //цвет шрифта в обычном состоянии
+	font-size: 13px; // Размер шрифта
+
+	}
+
+	&__button {
+		width: 73px;
+		margin: 15px 20px;
+		padding: 2px 10px;
+		display: flex;
+		align-items: flex-start;
+
+		background-color: #1665D8;
+	 color: #fff;
+	 font-size: 14px;
+	 border: none;
+	 text-align: center;
+	   box-shadow: 0 0 2px rgba(0,0,0,0.5); /* Параметры тени */
+
+	}
+
 }
