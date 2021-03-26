@@ -920,6 +920,12 @@ aside {
   width: 990px;
 }
 
+.users__footer {
+  width: 990px;
+  margin: 100px 0 0 15px;
+  border-top: 1px solid #DFE3E8;
+}
+
 .top__button-filter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1034,6 +1040,30 @@ aside {
           justify-content: space-between;
 }
 
+.mid__text-selected {
+  margin: 0 10px;
+  font-size: 11px;
+}
+
+.mid__text-user {
+  margin-left: 25px;
+  font-size: 11px;
+}
+
+.mid__text-phone {
+  margin-left: 25px;
+  font-size: 11px;
+}
+
+.mid__text-email {
+  font-size: 11px;
+}
+
+.mid__text-data {
+  color: #9EA0A5;
+  font-size: 11px;
+}
+
 .mid__box-name-user {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1042,9 +1072,9 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mid__round {
@@ -1061,6 +1091,58 @@ aside {
 
 .mid__text {
   color: #3A3B3F;
+  font-size: 11px;
+}
+
+.mid__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mid__end-text {
+  font-size: 11px;
+  color: #3A3B3F;
+  margin: 0 10px;
+}
+
+.mid__select {
+  margin: 0 10px;
+  font-size: 11px;
+  color: #3A3B3F;
+  border: 0px solid #fff;
+}
+
+.mid__number-page {
+  font-size: 11px;
+  color: #3A3B3F;
+  margin: 0 10px;
+}
+
+.mid__end-left {
+  margin: 0 15px;
+}
+
+.mid__end-right {
+  margin: 0 10px;
+}
+
+.footer__text-1 {
+  color: #616161;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.footer__text-2 {
+  color: #6B6C6F;
+  padding-top: 2px;
   font-size: 11px;
 }
 

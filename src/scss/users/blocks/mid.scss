@@ -27,11 +27,36 @@
   }
 
   &__line-container_first {
+
     margin: 10px 20px;
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content:space-between;
+  }
+
+  &__text-selected{
+    margin: 0 10px;
+    font-size: 11px;
+  }
+
+  &__text-user {
+    margin-left: 25px;
+      font-size: 11px;
+  }
+
+  &__text-phone {
+    margin-left: 25px;
+      font-size: 11px;
+  }
+
+  &__text-email {
+      font-size: 11px;
+  }
+
+  &__text-data {
+    color: #9EA0A5;
+    font-size: 11px;
   }
 
 
@@ -42,7 +67,7 @@
   &__box-name-user{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
   }
 
   &__round {
@@ -61,6 +86,39 @@
     color: #3A3B3F;
     font-size: 11px;
 	}
+
+  &__end {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__end-text {
+    font-size: 11px;
+    color: #3A3B3F;
+      margin: 0 10px;
+  }
+
+  &__select {
+    margin: 0 10px;
+    font-size: 11px;
+    color: #3A3B3F;
+    border: 0px solid #fff;
+  }
+
+  &__number-page{
+    font-size: 11px;
+    color: #3A3B3F;
+      margin: 0 10px;
+  }
+  &__end-left {
+    margin: 0 15px;
+  }
+
+  &__end-right {
+    margin: 0 10px;
+  }
 
 
 }
