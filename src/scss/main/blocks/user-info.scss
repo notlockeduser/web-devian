@@ -1,17 +1,18 @@
+@import "assets/mixins.scss";
+@import "assets/var.scss";
+
+
 .user-info {
 
-  display: flex;
-  flex-direction: column;
+  @include flex-col;
 
   &__container {
-    display: flex;
-    flex-direction: column;
+    @include flex-col;
     margin: 20px 20px 15px 20px;
   }
 
   &__container-row {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
   }
 
 	&__name {
@@ -22,12 +23,12 @@
 	&__city {
     margin-top: 15px;
     font-size: 12px;
-    color: rgba(#9EA0A5, .39);
+    color: rgba($color-lightGrey, .39);
 	}
 
 	&__time {
     font-size: 12px;
-    color: #9EA0A5;
+    color: $color-lightGrey;
 	}
 
 	&__avatar {
@@ -47,10 +48,10 @@
   &__button {
     margin-top: 10px;
     background-color: #fff;
-   color: #1665D8;
-   font-size: 14px;
-   border: none;
-   text-align: center;
+     color: #1665D8;
+     font-size: 14px;
+     border: none;
+     text-align: center;
   }
 
   &__button:after {

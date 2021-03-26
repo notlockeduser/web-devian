@@ -1,37 +1,31 @@
+@import "assets/mixins.scss";
+@import "assets/var.scss";
+
+
 .mid {
 
 	&__form {
-    display:flex;
-    flex-direction: column;
-
+    @include flex-col;
 	}
 
-
 	&__first-line {
-    border-bottom: 1px solid #E4E7EB;;
+    border-bottom: 1px solid $colorLine;
     width: 990px;
-
-
 	}
 
   &__line {
-    border-bottom: 1px solid #E4E7EB;;
+    border-bottom: 1px solid $colorLine;
   }
 
   &__line-container{
       margin: 4px 20px;
-      display: flex;
-      flex-direction:row;
-      align-items: center;
+      @include flex-row-center;
       justify-content:space-between;
   }
 
   &__line-container_first {
-
     margin: 10px 20px;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
+    @include flex-row-center;
     justify-content:space-between;
   }
 
@@ -55,7 +49,7 @@
   }
 
   &__text-data {
-    color: #9EA0A5;
+    color: $color-lightGrey;
     font-size: 11px;
   }
 
@@ -65,9 +59,7 @@
 	}
 
   &__box-name-user{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex-row-center;
   }
 
   &__round {
@@ -76,14 +68,14 @@
     line-height: 28px;
     border-radius: 50%;
     font-size: 13px;
-    color: #fff;
+    color: $white;
     text-align: center;
     background-color: #1070CA;
     margin: 0 10px;
   }
 
 	&__text {
-    color: #3A3B3F;
+    color: $colorBlack;
     font-size: 11px;
 	}
 
@@ -96,20 +88,20 @@
 
   &__end-text {
     font-size: 11px;
-    color: #3A3B3F;
+    color: $colorBlack;
       margin: 0 10px;
   }
 
   &__select {
     margin: 0 10px;
     font-size: 11px;
-    color: #3A3B3F;
-    border: 0px solid #fff;
+    color:$colorBlack;
+    border: 0px solid $white;
   }
 
   &__number-page{
     font-size: 11px;
-    color: #3A3B3F;
+    color: $colorBlack;
       margin: 0 10px;
   }
   &__end-left {
@@ -119,6 +111,4 @@
   &__end-right {
     margin: 0 10px;
   }
-
-
 }

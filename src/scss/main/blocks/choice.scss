@@ -1,3 +1,7 @@
+@import "assets/mixins.scss";
+@import "assets/var.scss";
+
+
 .choice {
 
   &__item {
@@ -7,7 +11,7 @@
     font-size: 14px;
     text-decoration: none;
 
-    color: #3A3B3F;
+    color: $colorBlack;
   }
 
   &__item:after {

@@ -1,14 +1,12 @@
-$defaultBlue: #3F51B5;
-
+@import "assets/mixins.scss";
+@import "assets/var.scss";
 
 .header {
 
 	&__body {
-    background: $defaultBlue;
+    background: $headerBlue;
     height: 64px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex-row-center;
 	}
 
 	&__logobar {
@@ -19,9 +17,7 @@ $defaultBlue: #3F51B5;
 
 	&__logobar-a {
 		text-decoration: none;
-		display: flex;
-		align-items: center;
-		flex-direction: row;
+		@include flex-row-center;
 	}
 
 	&__logo {
@@ -31,7 +27,7 @@ $defaultBlue: #3F51B5;
 	&__logotext {
     margin-left: 10px;
     width: 90px;
-    color: #fff;
+    color: $white;
     font-size: 20px;
 
 	}
@@ -40,21 +36,19 @@ $defaultBlue: #3F51B5;
     height: 26px;
 		max-width: 70%;
     border-radius: 5px;
-    background-color: darken($defaultBlue, 10%);
+    background-color: darken($headerBlue, 10%);
 	}
 
 	&__ads-a {
 		text-decoration: none;
-		display: flex;
-		align-items: center;
-		flex-direction: row;
+		@include flex-row-center;
 	}
 
 	&__ads-button {
 		margin: 4px;
 		font-size: 9px;
     background: #26A69A;
-    color: #fff;
+    color: $white;
     text-transform: uppercase;
     padding: 4px 6px;
     border-radius: 5px;
@@ -80,7 +74,6 @@ $defaultBlue: #3F51B5;
 
 	&__exit {
     margin: 10px;
-
 	}
 
 }

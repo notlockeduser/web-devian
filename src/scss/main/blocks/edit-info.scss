@@ -1,11 +1,14 @@
+@import "assets/mixins.scss";
+@import "assets/var.scss";
+
+
 .edit-info {
 
 	&__container-text {
 		padding: 15px;
-		display:flex;
-		flex-direction: row;
+		@include flex-row;
 		align-items:baseline;
-		border-bottom: 1px solid #E4E7EB;
+		border-bottom: 1px solid $colorLine;
 
 	}
 
