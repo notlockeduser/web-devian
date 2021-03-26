@@ -878,14 +878,14 @@ aside {
 }
 
 .users__body {
-  background: #F2F2F2;
+  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .users__top {
@@ -897,9 +897,27 @@ aside {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.users__mid {
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 990px;
 }
 
 .top__button-filter {
@@ -915,13 +933,135 @@ aside {
           align-items: center;
   background-color: #FFFFFF;
   border-radius: 3px;
-  padding: 5px;
+  padding: 5px 5px 5px 8px;
   text-decoration: none;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .top__button-filter-text {
-  margin-left: 5px;
+  margin: 0 5px;
   color: #3A3B3F;
+}
+
+.top__search {
+  margin: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+
+.top__search-img {
+  margin: 3px 5px 0 5px;
+}
+
+.top__search-input {
+  border: 0px solid white;
+  padding: 5px 555px 0 5px;
+}
+
+.top__button-add {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1665D8;
+  border-radius: 3px;
+  padding: 5px 5px 5px 8px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.top__button-add-text {
+  margin: 0 5px 0 10px;
+  color: #fff;
+}
+
+.mid__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mid__first-line {
+  border-bottom: 1px solid #E4E7EB;
+  width: 990px;
+}
+
+.mid__line {
+  border-bottom: 1px solid #E4E7EB;
+}
+
+.mid__line-container {
+  margin: 4px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mid__line-container_first {
+  margin: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mid__box-name-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.mid__round {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  background-color: #1070CA;
+  margin: 0 10px;
+}
+
+.mid__text {
+  color: #3A3B3F;
+  font-size: 11px;
 }
 
 * {

@@ -2,16 +2,28 @@
 
   &__body {
 
-    background: #F2F2F2;
+    background: #fff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
 	&__top {
     margin: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+
+	}
+
+  &__mid {
+		border-radius: 3px;
+		box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 990px;
+
 	}
 
 }
