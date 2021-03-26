@@ -1,0 +1,69 @@
+.edit-notif {
+
+	&__container-text {
+		padding: 15px;
+		display:flex;
+		flex-direction: row;
+		align-items:baseline;
+		border-bottom: 1px solid #E4E7EB;
+
+	}
+
+	&__text-1 {
+		font-size: 14px;
+		color: #3A3B3F;
+	}
+
+	&__text-2 {
+		margin-left: 10px;
+		font-size: 10px;
+		color: #66788A;
+
+	}
+
+	&__form-container{
+		display: flex;
+		flex-direction:row;
+		border-bottom: 1px solid #E4E7EB;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+    margin:17px;
+    margin-right: 60px;
+	}
+
+  &__text-in-form{
+  }
+
+  &__one-line-check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    color: #425A70;
+  }
+
+	&__input {
+    margin:5px;
+
+
+	}
+
+	&__button {
+		width: 73px;
+		margin: 15px 20px;
+		padding: 2px 20px;
+		display: flex;
+		align-items: flex-start;
+
+		background-color: #fff;
+	 color: #1665D8;
+	 font-size: 14px;
+	 border: 1px solid #E4E7EB;
+   border-radius: 3px;
+	 text-align: center;
+
+	}
+}

@@ -1,0 +1,33 @@
+.top {
+
+	&__button-filter {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: #FFFFFF;
+		border-radius: 3px;
+		padding: 5px;
+		text-decoration: none;
+
+	}
+
+	&__button-filter-text {
+     margin-left: 5px;
+		 color: #3A3B3F;
+
+
+	}
+
+	&__search {
+
+	}
+
+	&__button-add {
+
+	}
+
+	&__button-add-text {
+
+	}
+
+}
